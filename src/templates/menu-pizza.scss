@@ -1,0 +1,116 @@
+.style1 {
+  margin-top: 0px; opacity: 1;
+}
+.style2 {
+}
+
+.style3 {
+  // background-image:url(../img/01.jpg)
+  background-color: red;
+}
+.all-height-pizza {
+  text-align-last: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  height: 400px;
+}
+.all-width-pizza {
+  opacity: 0.7;
+  width: 100%;
+  background-color: white;
+}
+.title-base {
+
+  text-align-last: center;
+  margin: 20px 0;
+}
+@media (max-width: 767px) {
+  h2
+  {
+      font-size: 24px;;
+  }
+}
+.social-group {
+
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meal {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+
+  background-repeat: round;
+}
+.paddin-meal {
+
+  padding: 0 0px 0 25px;
+}
+.center-row {
+
+  display: flex;
+  justify-content: center;
+}
+.center-row-2 {
+  display: flex;
+  align-items: center;
+}
+.tab-menu {
+  justify-content: center;
+}
+.pizza-entree {
+  background-color: #ff000021;
+  padding: 10px;
+  border: 5px solid #dee2e6;
+}
+.pizza-plat {
+  background-color: #ffff0029;
+  padding: 10px;
+  border: 5px solid #dee2e6;
+}
+.pizza-dessert {
+  background-color: #0d6efd3d;
+  padding: 10px;
+  border: 5px solid #dee2e6;
+}
+// .col-md-2 {
+//   width: 8.33% !important;
+// }
+// .col-md-2 {
+//   width: 16.66% !important;
+// }
+// .col-md-3 {
+//   width: 25% !important;
+// }
+// .col-md-4 {
+//   width: 33.33% !important;
+// }
+// .col-md-6 {
+//   width: 50% !important;
+
+//   @media (max-width: 768px) {
+//     width: 100% !important;
+//   }
+// }
+// .col-md-8 {
+//   width: 66.66% !important;
+// }
+// .col-md-9 {
+//   width: 75% !important;
+// }
+// .col-md-10 {
+//   width: 83.33% !important;
+// }
+.separator {
+
+  height: 20px;
+  width: 100%;
+  border-top: 2px solid #c5c8cb;
+}
+.width-100px {
+  width: 100px !important;
+}
