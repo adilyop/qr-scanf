@@ -7,7 +7,7 @@ export const Navigation = (props) => {
             type='button'
             className='navbar-toggle collapsed'
             data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
+            data-target='#bs-example-navbar-collapse'
           >
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
@@ -22,7 +22,7 @@ export const Navigation = (props) => {
 
         <div
           className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
+          id='bs-example-navbar-collapse'
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>

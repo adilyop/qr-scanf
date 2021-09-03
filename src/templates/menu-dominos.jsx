@@ -6,7 +6,7 @@ import pizzaImage from './img/pizza.jpeg';
 import { Tabs, Tab } from 'react-bootstrap';
 
 export default function MenuDominos() {
-    const [tabSelected, setTabSelected] = useState('PLAT')
+    const [tabSelected, setTabSelected] = useState('ENTREE')
     useEffect(() => {
     }, [])
     function selectTab(tab) {
@@ -21,7 +21,7 @@ export default function MenuDominos() {
                     <p>Menu and portfolio</p>
             </div>
         </div>
-    <div class="section-bg-image parallax-window" data-bleed="0" data-natural-height="2500" data-natural-width="1920" data-parallax="scroll" data-image-src="../images/hd-portrait-3.jpg">
+    <div class="pizza-content" data-bleed="0" data-natural-height="2500" data-natural-width="1920" data-parallax="scroll" data-image-src="../images/hd-portrait-3.jpg">
         <div class="container content">
             <div class="row center-row">
                 <div class="col-md-10 col-center">
@@ -30,8 +30,26 @@ export default function MenuDominos() {
                         <p>(Entrée + Plat + Dessert)</p>
                     </div>
 
-                    <Tabs defaultActiveKey="profile" className="tab-menu" >
-                        <Tab eventKey="home" title="Entrée">
+                    <nav id='menu' className='navbar navbar-default center-tab'>
+                        <ul className='nav navbar-nav '>
+                            <li>
+                            <a onClick={(e) => selectTab('ENTREE')} className='page-scroll cursor'>
+                                ENTREE
+                            </a>
+                            </li>
+                            <li>
+                            <a onClick={(e) => selectTab('PLAT')} className='page-scroll cursor'>
+                                Plat
+                            </a>
+                            </li>
+                            <li>
+                            <a onClick={(e) => selectTab('DESSERT')} className='page-scroll cursor'>
+                                Dessert
+                            </a>
+                            </li>
+                        </ul>
+                    </nav>
+                        {tabSelected === 'ENTREE' ?
                             <div class="row pizza-entree">
                                 <div class="list-item list-item-img">
                                         <div class="row center-row-2">
@@ -152,130 +170,10 @@ export default function MenuDominos() {
                                         </div>
                                     </div>
                             </div>
-                        </Tab>
-                        <Tab eventKey="profile" title="Plat">
-                            <div class="row pizza-entree">
-                                <div class="list-item list-item-img">
-                                        <div class="row center-row-2">
-                                            <div class="width-100px">
-                                                <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div>
-                                                    <h3>Steamed king crab</h3>
-                                                    <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="width-100px">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="width-100px">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="width-100px">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                        <div class="row center-row-2">
-                                            <div class="width-100px">
-                                                <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div>
-                                                    <h3>Steamed king crab</h3>
-                                                    <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="width-100px">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="width-100px">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="separator"></div>
-                                <div class="list-item list-item-img">
-                                        <div class="row center-row-2">
-                                            <div class="width-100px">
-                                                <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div>
-                                                    <h3>Steamed king crab</h3>
-                                                    <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </Tab>
-                        <Tab eventKey="contact" title="Dessert">
+                            : null 
+                        }
+
+                        {tabSelected === 'PLAT' ?
                             <div class="row pizza-entree">
                                 <div class="list-item list-item-img">
                                         <div class="row center-row-2">
@@ -295,6 +193,130 @@ export default function MenuDominos() {
                                 <div class="list-item list-item-img">
                                     <div class="row center-row-2">
                                         <div class="width-100px">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Steamed king crab</h3>
+                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="width-100px">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Steamed king crab</h3>
+                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="width-100px">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Steamed king crab</h3>
+                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                        <div class="row center-row-2">
+                                            <div class="width-100px">
+                                                <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div>
+                                                    <h3>Steamed king crab</h3>
+                                                    <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="width-100px">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Steamed king crab</h3>
+                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="width-100px">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Steamed king crab</h3>
+                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                        <div class="row center-row-2">
+                                            <div class="width-100px">
+                                                <div className={"meal"} style={{ backgroundImage: `url(${pizzaImage})` }}></div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div>
+                                                    <h3>Steamed king crab</h3>
+                                                    <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                           : null 
+                        } 
+
+                        {tabSelected === 'DESSERT' ?
+                            <div class="row pizza-entree">
+                                <div class="list-item list-item-img">
+                                        <div class="row center-row-2">
+                                            <div class="width-100px">
+                                                <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div>
+                                                    <h3>Steamed king crab</h3>
+                                                    <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                <div class="separator"></div>
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="width-100px">
                                             <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
                                         </div>
                                         <div class="col-md-8">
@@ -396,9 +418,9 @@ export default function MenuDominos() {
                                         </div>
                                     </div>
                             </div>
-                        </Tab>
-                    </Tabs>
-                </div>
+                            : null 
+                        }
+               </div>
             </div>
         </div>
     </div>

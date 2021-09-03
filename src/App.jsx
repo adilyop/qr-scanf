@@ -7,6 +7,7 @@ import { Services } from './components/services'
 import { Gallery } from './components/gallery'
 import { MenuBasic } from './templates/menu-basic'
 import MenuDominos from './templates/menu-dominos'
+import MenuFish from './templates/menu-fish'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
@@ -33,6 +34,9 @@ const App = () => {
             </Route>
             <Route exact path="/dominos-menu">
               <MenuDominos />
+            </Route>
+            <Route exact path="/fish-menu">
+              <MenuFish />
             </Route>
             <Route  path="/*">
               <div>

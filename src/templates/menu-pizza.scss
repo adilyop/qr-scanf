@@ -13,12 +13,30 @@
   align-items: center;
   color: black;
   display: flex;
-  height: 400px;
+  height: 400px;    
+}
+.all-height-fish {
+  text-align-last: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  height: 200px;    
 }
 .all-width-pizza {
   opacity: 0.7;
   width: 100%;
   background-color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+.all-width-fish {
+  opacity: 0.7;
+  width: 100%;
+  background-color: white;
+  font-style: italic;
+  font-weight: bold;
+  border-top: 10px solid green;
+  border-bottom: 10px solid red
 }
 .title-base {
 
@@ -58,24 +76,19 @@
 .center-row-2 {
   display: flex;
   align-items: center;
+  background-color: white;
 }
 .tab-menu {
   justify-content: center;
 }
 .pizza-entree {
-  background-color: #ff000021;
   padding: 10px;
-  border: 5px solid #dee2e6;
 }
 .pizza-plat {
-  background-color: #ffff0029;
   padding: 10px;
-  border: 5px solid #dee2e6;
 }
 .pizza-dessert {
-  background-color: #0d6efd3d;
   padding: 10px;
-  border: 5px solid #dee2e6;
 }
 // .col-md-2 {
 //   width: 8.33% !important;
@@ -113,4 +126,80 @@
 }
 .width-100px {
   width: 100px !important;
+}
+.center-tab {
+  display: flex;
+  justify-content: center;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.pizza-content{
+}
+.fish-image {
+  height: 100px;
+
+}
+.fish-title {
+  height: 30px;
+  border-bottom: 1px white dashed;
+  color: white !important;
+}
+.fish-desc {
+
+}
+.fish-portfolio-item {
+
+  position: relative;
+  margin: 1px -15px 0 -14px;
+    padding: 0;
+    height: 200px;
+    margin: 5px;
+    /* border: 4px solid #030303; */
+    box-shadow: 1px 1px 5px #030303;
+    text-align-last: center;
+}
+.pizza-yellow { background-color: #c5ca817a; }
+.pizza-green { background-color: #a0ca817a;}
+.pizza-red { background-color: #caa7817a; }
+.pizza-purple { background-color: #8186ca7a; }
+.fish-img-responsive {
+  height: 100px;
+
+  border-radius: 50%;
+  width: 100px;
+  border: 2px solid #babd8f;
+}
+.fish-content {
+
+}
+.fish-title-sub-menu {
+  height: 50px;
+    height: 60px;
+    font-size: 18px;
+    /* border: 3px solid rgba(160, 95, 155, 0.25); */
+    /* background-color: #573e2312; */
+    font-weight: 700;
+    color: black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.footer-parallax-container {
+
+  background-image: url('./img/background1.jpeg') 
+}
+.fish-price {
+  position: absolute;
+    right: 0;
+    font-size: 17px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #820d0d;
+    padding: 10px;
+    box-shadow: 1px 0px 5px black;
 }

@@ -16,12 +16,10 @@ body {
   position: absolute;
 }
 
-@media (min-width: 767px) {
   .appContainer {
     width: 100%;
   }
   
-}
 article,
 aside,
 details,

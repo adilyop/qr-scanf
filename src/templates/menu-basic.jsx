@@ -8,8 +8,8 @@ export const MenuBasic = (props) => {
     <div class="footer-parallax-container"> 
         <div className={"all-height"} style={{ backgroundImage: `url(${background})` }}>
                 <div className={"all-width"}>
-                    <h1>Menu list two</h1>
-                    <p>Menu and portfolio</p>
+                    <h1>Louvre Restaurant</h1>
+                    <p>Le parisien</p>
             </div>
         </div>
     <div class="section-bg-image parallax-window" data-bleed="0" data-natural-height="2500" data-natural-width="1920" data-parallax="scroll" data-image-src="../images/hd-portrait-3.jpg">
@@ -20,7 +20,7 @@ export const MenuBasic = (props) => {
                         <h2>Meat &amp; First dishes</h2>
                         <p>Slow cook meals and fresh fishes</p>
                     </div>
-                    <div class="row">
+                    <div class="row box-shadow">
                         <div class="col-md-6">
                             <div class="list-items">
                                 
@@ -31,11 +31,45 @@ export const MenuBasic = (props) => {
                                         </div>
                                         <div class="col-md-8">
                                             <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                                <h3>Greek salad</h3>
+                                                <p> Mixed lettuce, cherry tomatoes, onion, cucumber, olives and feta served with a Greek style dressing </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
+                                            <span>15$</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="col-md-3">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Chicken Caesar salad</h3>
+                                                <p> Lettuce, cherry tomatoes sliced chicken breast, crispy croûtons and a Caesar dressing </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pricing-container">
+                                            <span>9$</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="list-item list-item-img">
+                                    <div class="row center-row-2">
+                                        <div class="col-md-3">
+                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3>Chicken Caesar salad</h3>
+                                                <p>Lettuce, cherry tomatoes sliced chicken breast, crispy croûtons and a Caesar dressing </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -52,41 +86,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
-                                            <span>9$</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="col-md-3">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-1">
-                                            <span>9$</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="list-item list-item-img">
-                                    <div class="row center-row-2">
-                                        <div class="col-md-3">
-                                            <div className={"meal"} style={{ backgroundImage: `url(${background})` }}></div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -103,11 +103,11 @@ export const MenuBasic = (props) => {
                                         </div>
                                         <div class="col-md-8">
                                             <div>
-                                                <h3>Steamed king crab</h3>
-                                                <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
+                                                <h3>Roasted Mediterranean</h3>
+                                                <p>Lettuce, cherry tomatoes, courgettes and aubergines all roasted to perfection with a creamy Goats cheese dressing</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -124,7 +124,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -158,7 +158,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@ export const MenuBasic = (props) => {
                         <h2>Seasonals and burgers</h2>
                         <p>Genuine and fresh ingredients</p>
                     </div>
-                    <div class="row">
+                    <div class="row box-shadow">
                         <div class="col-md-6">
                             <div class="list-items">
                                 
@@ -186,7 +186,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -203,7 +203,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -220,7 +220,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -237,7 +237,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -258,7 +258,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -275,7 +275,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -292,7 +292,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -309,7 +309,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -322,7 +322,7 @@ export const MenuBasic = (props) => {
                         <h2>Desserts &amp; creams</h2>
                         <p>Hand made ice creams and desserts</p>
                     </div>
-                    <div class="row">
+                    <div class="row box-shadow">
                         <div class="col-md-6">
                             <div class="list-items">
                                 
@@ -337,7 +337,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -354,7 +354,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -371,7 +371,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -388,7 +388,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -409,7 +409,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -426,7 +426,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -443,7 +443,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>
@@ -460,7 +460,7 @@ export const MenuBasic = (props) => {
                                                 <p> Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume. </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 pricing-container">
                                             <span>9$</span>
                                         </div>
                                     </div>

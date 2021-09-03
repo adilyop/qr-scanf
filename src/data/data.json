@@ -2,28 +2,26 @@
     "Header": {
 
         "title": "We make it accessible",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "paragraph": "No more papers"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "We are an innovative startup based on Paris, senior front end developpers, UX/UI designers",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Availability",
+            "Recent technologies",
+            "Very competetive pricing"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Strong servers",
+            "Responive design",
+            "Fast deployment"
         ]
     },
     "Services": [{
             "icon": "fa fa-wordpress",
             "name": "Web page",
-            "text": "you want to share a specific information, create your own web page and make it accessible"
+            "text": "Create your own web page and make it accessible"
         },
         {
             "icon": "fa fa-file-pdf-o",
@@ -75,7 +73,7 @@
     ],
     "Contact": {
         "address": "41 Bd Serurier, Paris 19",
-        "email": "codevtools@gmail.com",
+        "email": "qrscanf@gmail.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
@@ -83,22 +81,22 @@
     "Features": [{
             "icon": "fa fa-comments-o",
             "title": "Contact us",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "text": "Do not hesitate to contact us by e-mail to explain your need."
         },
         {
             "icon": "fa fa-bullhorn",
             "title": "choose your template",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "text": "A large choose of free templates are available to vover your need."
         },
         {
             "icon": "fa fa-group",
             "title": "make it real",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "text": "One week to deploy your web page and generate your code QR."
         },
         {
             "icon": "fa fa-magic",
             "title": "website hosted",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "text": "You have two weeks of free trial, you can unsubscribe anytime."
         }
     ]
 }
