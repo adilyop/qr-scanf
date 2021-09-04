@@ -334,7 +334,8 @@ header .intro-text {
 	padding: 100px 0;
 }
 .portfolio-item {
-	margin: 1px -15px 0 -14px;
+	margin: 10px 0;
+	box-shadow: 1px 1px 5px black;
 	padding: 0;
 }
 .portfolio-item .hover-bg {
