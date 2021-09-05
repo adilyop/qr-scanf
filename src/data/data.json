@@ -10,7 +10,7 @@
         "Why": [
             "Availability",
             "Recent technologies",
-            "Very competetive pricing"
+            "Very competitive pricing"
         ],
         "Why2": [
             "Strong servers",
@@ -26,27 +26,27 @@
         {
             "icon": "fa fa-file-pdf-o",
             "name": "CV pdf",
-            "text": "No more print or attach your CV in mail, QR code replace all this"
+            "text": "No more print or attach your CV in e-mail, QR code replace all this"
         },
         {
             "icon": "fa fa-spoon",
             "name": "Menu",
-            "text": "you own a café or restaurant, create QR code for your menu and dispatch it"
+            "text": "You own a café or restaurant, create QR code for your menu and dispatch it"
         },
         {
             "icon": "fa fa-newspaper-o",
             "name": "Annonce",
-            "text": "do yo have an announcement"
+            "text": "All your announcements with a sample QR code"
         },
         {
             "icon": "fa fa-calculator",
             "name": "Courses",
-            "text": "let your course accessible juste by QR code"
+            "text": "Let your course accessible juste by QR code"
         },
         {
             "icon": "fa fa-credit-card",
             "name": "Identity",
-            "text": "no need to take all your identity doc with you"
+            "text": "You don't need to take all your identity doc with you Anymore"
         }
 
 
@@ -86,7 +86,7 @@
         {
             "icon": "fa fa-bullhorn",
             "title": "choose your template",
-            "text": "A large choose of free templates are available to vover your need."
+            "text": "A large choice of free templates are available to cover your need."
         },
         {
             "icon": "fa fa-group",
