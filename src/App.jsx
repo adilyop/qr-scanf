@@ -12,6 +12,7 @@ import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
+import MariageAnnouncement from './templates/announcements/marriage-announcement'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -37,6 +38,9 @@ const App = () => {
             </Route>
             <Route exact path="/fish-menu">
               <MenuFish />
+            </Route>
+            <Route exact path="/mariage-announcement">
+              <MariageAnnouncement />
             </Route>
             <Route  path="/*">
               <div>
