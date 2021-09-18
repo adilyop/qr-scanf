@@ -540,3 +540,17 @@ color: #777;
 	margin: 50px 0;
 }
 }
+.flex-display {
+	padding: 5%;
+	display: flex;
+}
+.progress-badge  {
+	color: #378C3F;
+}
+.progress-value {
+	color: #378C3F;
+}
+.space-between{
+	display: flex;
+	place-content: space-between;
+}

@@ -6,6 +6,7 @@ import { About } from './components/about'
 import { Services } from './components/services'
 import { Gallery } from './components/gallery'
 import { MenuBasic } from './templates/menu-basic'
+import { Resume } from './templates/cv/resume'
 import MenuDominos from './templates/menu-dominos'
 import MenuFish from './templates/menu-fish'
 import { Contact } from './components/contact'
@@ -41,6 +42,9 @@ const App = () => {
             </Route>
             <Route exact path="/mariage-announcement">
               <MariageAnnouncement />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
             </Route>
             <Route  path="/*">
               <div>

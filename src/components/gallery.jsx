@@ -41,7 +41,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>FRENSH</h4>
+                      <h4>FRENCH</h4>
                     </div>
                     <img
                       src='img/menu/pizza-menu.png'
@@ -84,10 +84,10 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>INVITATION</h4>
                     </div>
                     <img
-                      src='img/portfolio/04-small.jpg'
+                      src='img/menu/mariage-bg.png'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -95,6 +95,29 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
+
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='./resume'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>CV</h4>
+                    </div>
+                    <img
+                      src='img/menu/CV.png'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            
             
             {/* 
             <div className='col-sm-6 col-md-4 col-lg-4'>

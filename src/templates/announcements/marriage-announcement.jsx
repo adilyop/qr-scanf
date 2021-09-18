@@ -176,7 +176,7 @@ export default function MariageAnnouncement() {
           <div class="content-element4">
             
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="">
                 
                 <div class="align-center">
                   
