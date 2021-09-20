@@ -7,6 +7,7 @@ import { Services } from './components/services'
 import { Gallery } from './components/gallery'
 import { MenuBasic } from './templates/menu-basic'
 import { Resume } from './templates/cv/resume'
+import { IdCard } from './templates/id/id-card'
 import MenuDominos from './templates/menu-dominos'
 import MenuFish from './templates/menu-fish'
 import { Contact } from './components/contact'
@@ -45,6 +46,9 @@ const App = () => {
             </Route>
             <Route exact path="/resume">
               <Resume />
+            </Route>
+            <Route exact path="/id-card">
+              <IdCard />
             </Route>
             <Route  path="/*">
               <div>
