@@ -4,16 +4,6 @@ import { Tabs, Tab } from 'react-bootstrap';
 import './id-card.scss'
 
 export const IdCard = (props) => {
-  const [tabSelected, setTabSelected] = useState('PLAT')
-  const [isHeaderHidden, setIsHeaderHidden] = useState(true)
-    useEffect(() => {
-    }, [])
-    function selectTab(tab) {
-        setTabSelected(tab)
-    }
-    function hideHeader(tab) {
-      console.log('dd')
-    }
 
     return (
       <div class="home-card">
@@ -23,7 +13,7 @@ export const IdCard = (props) => {
     
     <div class="pCard_up">
         <div class="pCard_text">
-            <h2 style={{color: 'white'}}>GOMER Nelson</h2>
+            <h2 style={{color: 'white'}}>GUEZZI Adil</h2>
             <p>FULLSTACK JAVASCRIPT</p>
         </div>
         
@@ -31,28 +21,26 @@ export const IdCard = (props) => {
     
     <div class="pCard_down">
         <div>
-            <p>Projects</p>
-            <p>26</p>
+            <p>Experience</p>
+            <p>7 years</p>
         </div>
         <div>
-            <p>Views</p>
-            <p>21579</p>
+            <p>   </p>
+            <p> </p>
         </div>
         <div>
-            <p>Likes</p>
-            <p>976</p>
+            <p>Project</p>
+            <p>21</p>
         </div>
     </div>
     
     <div class="pCard_back">
         <p>See My Latest Work Here</p>
-          <a href="#"><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
-          <a href="#"><i class="fa fa-github fa-2x fa-fw"></i></a>
-          <a href="#"><i class="fa fa-behance fa-2x fa-fw"></i></a> 
-          <a href="#"><i class="fa fa-codepen fa-2x fa-fw"></i></a>
-          <a href="#"><i class="fa fa-facebook fa-2x fa-fw"></i></a>
-          <a href="#"><i class="fa fa-instagram fa-2x fa-fw"></i></a>
-        <p>Follow Me...</p>
+          <a href="https://www.linkedin.com/in/adil-guezzi-a877b885/" target="_blank" tooltip="tooltip"><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+          <a href="https://github.com/adilyop" target="_blank"><i class="fa fa-github fa-2x fa-fw"></i></a>
+          <a href="https://drive.google.com/file/d/1tKESy8CGaX2aD0MOuhWylVR-7ATLfgld/view?usp=sharing" target="_blank"><i class="fa fa-file-pdf-o fa-2x fa-fw"></i></a> 
+          <a href="https://play.google.com/store/apps/developer?id=Guezzi+Adil" target="_blank"><i class="fa fa-google fa-2x fa-fw"></i></a>
+        <p>Contact Me...</p>
     </div>  
     
     </div>

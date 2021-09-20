@@ -10,7 +10,6 @@ export default function MenuDominos() {
     useEffect(() => {
     }, [])
     function selectTab(tab) {
-        console.log('tab ', tab)
         setTabSelected(tab)
     }
     return (
@@ -33,17 +32,17 @@ export default function MenuDominos() {
                     <nav id='menu' className='navbar navbar-default center-tab'>
                         <ul className='nav navbar-nav '>
                             <li>
-                            <a onClick={(e) => selectTab('ENTREE')} className='page-scroll cursor'>
+                            <a onClick={(e) => selectTab('ENTREE')} className='page-scroll cursor' style={{ fontWeight: tabSelected == 'ENTREE'  ? `bold` : ''}}>
                                 ENTREE
                             </a>
                             </li>
                             <li>
-                            <a onClick={(e) => selectTab('PLAT')} className='page-scroll cursor'>
+                            <a onClick={(e) => selectTab('PLAT')} className='page-scroll cursor' style={{ fontWeight: tabSelected == 'PLAT'  ? `bold` : ''}}>
                                 Plat
                             </a>
                             </li>
                             <li>
-                            <a onClick={(e) => selectTab('DESSERT')} className='page-scroll cursor'>
+                            <a onClick={(e) => selectTab('DESSERT')} className='page-scroll cursor' style={{ fontWeight: tabSelected == 'DESSERT'  ? `bold` : ''}}>
                                 Dessert
                             </a>
                             </li>
