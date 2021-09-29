@@ -16,7 +16,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='./basic-menu'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -37,7 +36,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='./dominos-menu'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -58,7 +56,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='./fish-menu'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -80,7 +77,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='./mariage-announcement'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -102,7 +98,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='./resume'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -125,8 +120,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='./id-card'
-                    title='Project Title'
+                    href='./template-card'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -150,7 +144,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='img/portfolio/05-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -171,7 +164,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='img/portfolio/06-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -192,7 +184,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='img/portfolio/07-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -213,7 +204,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='img/portfolio/08-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -234,7 +224,6 @@ export const Gallery = (props) => {
                   {' '}
                   <a
                     href='img/portfolio/09-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>

@@ -8,6 +8,8 @@ import { Gallery } from './components/gallery'
 import { MenuBasic } from './templates/menu-basic'
 import { Resume } from './templates/cv/resume'
 import { IdCard } from './templates/id/id-card'
+import { TemplateCard } from './templates/id/template-card'
+import { SquidGame } from './templates/game/squid-game'
 import MenuDominos from './templates/menu-dominos'
 import MenuFish from './templates/menu-fish'
 import { Contact } from './components/contact'
@@ -49,6 +51,12 @@ const App = () => {
             </Route>
             <Route exact path="/id-card">
               <IdCard />
+            </Route>
+            <Route exact path="/template-card">
+              <TemplateCard />
+            </Route>
+            <Route exact path="/game">
+              <SquidGame />
             </Route>
             <Route  path="/*">
               <div>

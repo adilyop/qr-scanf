@@ -341,7 +341,8 @@ header .intro-text {
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
-	margin: 0;
+	margin: 0;    
+	max-height: 200px;
 }
 .hover-bg .hover-text {
 	position: absolute;
