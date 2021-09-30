@@ -13,7 +13,7 @@ export const Resume = (props) => {
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="./images/anthony.jpg" alt="Image"/></a></div>
           <div class="h2 title">Anthony Barnett</div>
-          <p class="category text-white">Web Developer, Graphic Designer,  Photographer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white">Web Developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
       </div>
       <div class="section">
@@ -97,6 +97,30 @@ export const Resume = (props) => {
               </div>
             </div>
           </div>
+          <div class="col-md-6">
+            <div><div class="space-between"><span class="progress-badge">angular</span>
+              <span class="progress-value">90%</span> </div>
+              <div class="progress">
+                <ProgressBar class="progress-bar-primary" variant="success" now={90} />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div><div class="space-between"><span class="progress-badge">React</span>
+              <span class="progress-value">80%</span> </div>
+              <div class="progress">
+                <ProgressBar class="progress-bar-primary" variant="success" now={80} />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div><div class="space-between"><span class="progress-badge">Nodejs</span>
+              <span class="progress-value">85%</span> </div>
+              <div class="progress">
+                <ProgressBar class="progress-bar-primary" variant="success" now={85} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -104,7 +128,7 @@ export const Resume = (props) => {
 </div>
 <div class="section" id="portfolio">
   <div class="container">
-    <div class="row">
+    <div class="row center-div">
       <div class="col-md-6 ml-auto mr-auto">
         <div class="h4 text-center mb-4 title">Portfolio</div>
         <div class="nav-align-center">
